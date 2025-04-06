@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.outer{
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.inner{
+    background-color: green;
+    color: white;
+    text-align: right;
+    transition: 0.5s ease-in;
+}
